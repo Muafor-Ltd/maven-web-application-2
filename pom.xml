@@ -94,20 +94,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.84.49.142:8081/repository/paypal-releases/</url>
+	      <name>Philmuafor mwa Release Nexus Repository</name>
+	      <url>http://34.204.11.198:8081/repository/mwa-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.84.49.142:8081/repository/paypal-snapshots/</url>
+	      <name>Philmuafor mwa Snapshot Nexus Repository </name>
+	      <url>http://34.204.11.198:8081/repository/mwa-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>mwa-tesla</finalName>
 		
 		<plugins>
 			<plugin>
